@@ -16,6 +16,7 @@
   --color-red: #f53855;
   --color-white: #ffff;
   --color-bg: #f53838;
+  --light-pink: #ffecec;
 }
 /*==============COLOR================*/
 .color-black {
@@ -37,6 +38,9 @@
   background: var(--color-bg);
 }
 
+.bg-light-pink {
+  background-color: var(--light-pink);
+}
 /*==================FONT-SIZE==============*/
 
 .fs-14 {

@@ -47,6 +47,29 @@ body {
   border: 2px solid red !important;
   color: red !important;
 }
+
+/*==================ABOUT SECTION=========================*/
+
+.user {
+  width: 55px;
+  height: 55px;
+}
+.tline {
+  position: relative !important;
+}
+
+.tline::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  left: 70%;
+
+  height: 125px;
+
+  background-color: #eeeff2;
+}
+
+/*==============================responsive==================*/
 @media (max-width: 992px) {
   .nav-link {
     display: flex;
