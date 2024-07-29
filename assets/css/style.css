@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+body {
+  font-family: "Rubik", sans-serif;
+}
+.transition-300ms {
+  transition: all 300ms linear;
+}
+.cursor {
+  cursor: pointer;
+}
+/*===================NavBar===============*/
+.nav-text:hover {
+  -webkit-text-stroke: 1px;
+}
+.nav-btn {
+  border: transparent;
+  width: 100px;
+  height: 40px;
+}
+.nav-btn:hover {
+  border: 2px solid red !important;
+  color: red !important;
+}
+.w-70 {
+  width: 70%;
+}
+.line-1-1 {
+  transform-origin: left;
+  transform: rotate(35deg);
+  transition: all 300ms linear;
+}
+.line-2 {
+  background-color: transparent !important;
+}
+.line-3 {
+  transform-origin: left;
+  transform: rotate(-35deg);
+  transition: all 300ms linear;
+}
+/*=================section-1============*/
+.hero-btn {
+  border: transparent !important;
+  box-shadow: 0px 27px 21px -3px #fcc9c9, 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+.hero-btn:hover {
+  background: transparent !important;
+  border: 2px solid red !important;
+  color: red !important;
+}
+@media (max-width: 992px) {
+  .nav-link {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%) !important;
+    width: 40%;
+    position: fixed;
+    justify-content: center;
+    bottom: 0;
+    left: -100% !important;
+    top: 0%;
+    z-index: 2;
+    transition: all 0.3s linear !important;
+  }
+
+  .show-nvabar {
+    left: 0 !important;
+  }
+
+  .menu-btn {
+    width: 35px;
+    align-content: center !important;
+    background: none;
+    display: block;
+    z-index: 3;
+  }
+
+  .line {
+    height: 4px;
+    display: flex;
+    margin: 4px;
+    background: red;
+  }
+
+  .line-1 {
+    width: 13px;
+  }
+  .pos {
+    top: -7px;
+  }
+  .conn-btn {
+    justify-content: center !important;
+    align-content: center;
+    align-items: center;
+  }
+}
